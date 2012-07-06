@@ -1,7 +1,8 @@
 jadPY
 =====
 
-jadPY is a utility used to decompile JAR files. 
+jadPY is a utility used to decompile JAR files. This was originally written for Windows and has only been tested on Windows. jadPY is basically just a wrapper for jad.exe, the Java decompiler. 
+
 
 Functionality
 -------------
@@ -26,14 +27,15 @@ This results in a directory structure similar to the jar file, except everything
 Usage
 -----
 
-Point jadPY at your jar file using the `-f` flag. 
+### Point jadPY at your jar file using the `-f` flag. 
 * `python jad.py -f file.jar`
 
-Point jadPY at your direcotry of jar files using the `-d` flag
+### Point jadPY at your direcotry of jar files using the `-d` flag
 * `python jad.py -d "C:\Users\mike\jarfiles\"`
 
-The default directory for jad.exe is `C:\tools\jad.exe`. If that is not where your install of jad.exe is, you can specify the path at runtime using the `-p` flag or manually edit the code to jad.py and change the default path. 
+### The default directory for jad.exe is `C:\tools\jad.exe`. If that is not where your install of jad.exe is, you can specify the path at runtime using the `-p` flag or manually edit the code to jad.py and change the default path. 
 * `python jad.py -f file.jar -p "C:\path\to\jad.exe"`
+
 
 Run `python jad.py -h` for help.
 
