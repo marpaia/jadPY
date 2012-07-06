@@ -43,5 +43,7 @@ Contact
 -------
 
 Mike Arpaia
+
 mike@arpaia.co
+
 http://arpaia.co
